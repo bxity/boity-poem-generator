@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>Poem Generator</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -17,19 +18,18 @@
       <form id="poem-generator">
         <input
           type="text"
-          placeholder="Enter poem genre"
+          placeholder="Enter a topic"
           autofocus
           required
           autocomplete="off"
           class="instructions"
           id="user-instructions"
         />
-        <input type="submit" class="sub-button" />
+        <input type="submit" class="submit-button" />
       </form>
-      <div class="poem" id="poem"></div>
-    </main>
-    </div>
-    <div class="container-footer">
+      <div class="hint">i.e: Love, Food or Friendship</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
     <footer>
       This AI project was coded by
       <a href="https://github.com/bxity/" target="_blank">Boitumelo Vilakazi</a>
