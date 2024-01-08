@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
+    <div class="container">
     <header>
-      <h1>Poem Generator</h1>
+      <h1>AI Poem Generator 🦋</h1>
     </header>
+
     <main>
       <form id="poem-generator">
         <input
@@ -19,11 +21,15 @@
           autofocus
           required
           autocomplete="off"
+          class="instructions"
+          id="user-instructions"
         />
-        <input type="submit" />
+        <input type="submit" class="sub-button" />
       </form>
       <div class="poem" id="poem"></div>
     </main>
+    </div>
+    <div class="container-footer">
     <footer>
       This AI project was coded by
       <a href="https://github.com/bxity/" target="_blank">Boitumelo Vilakazi</a>
@@ -36,6 +42,7 @@
         >Netlify</a
       >
     </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
