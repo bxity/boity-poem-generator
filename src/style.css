@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Pacifico', cursive;
     margin: 0;
     padding: 0;
     background-color: #fde6f2;
@@ -54,6 +54,7 @@ form {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    font-family: 'Pacifico', cursive;
 }
 
 .submit-button:hover {
@@ -90,7 +91,7 @@ footer a:hover {
 }
 
 .generating {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Pacifico', cursive;
     background-color: #ff7eb9;
     color: #fff;
     padding: 10px;
